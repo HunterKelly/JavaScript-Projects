@@ -1,6 +1,7 @@
 window.alert("Hello, World!");
 document.write('Hello World!');
 var x = " This is a string";
+
 document.write(x);
 document.write(" Lisa told Bart, \"Knock it off, Bart! Or I'll tell dad!\"<br>\"Eat my shorts!\" Bart responded");
 document.write(" \"Be who you are and say what you feel,"
