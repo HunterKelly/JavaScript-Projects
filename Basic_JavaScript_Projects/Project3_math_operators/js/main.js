@@ -9,7 +9,7 @@ function addition_function() {
 function subtraction_function() {
     var Subtraction = 5 - 2;
     document.getElementById("Math2").innerHTML = "5 - 2 = " + Subtraction;
-} 
+}
 
 function multiplication() {
     var simple_Math = 6 * 8;
@@ -43,7 +43,7 @@ function unary_Operator() {
 
 var x = 5;
 x++;
-document.write(x + " " ); 
+document.write(x + " ");
 
 var Y = 5.25;
 Y--
