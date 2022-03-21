@@ -6,8 +6,8 @@ function my_Dictionary() {
         Age: 5,
         Sound: "Bark!"
     };
-    document.getElementById("Dictionary").innerHTML = Animal.Sound;
-}
+    document.getElementById("Dictionary").innerHTML = Animal.Sound; 
+} //Pulls the sound from this dictionary to display it in the HTML document
 
 function two_Dictionary() {
     var Plant = {
@@ -17,6 +17,6 @@ function two_Dictionary() {
         Size: "20 meters",
         
     }
-    delete Plant.Age;
+    delete Plant.Age; //deletes the key value pair from the dictionary
     document.getElementById("Dictionary2").innerHTML = Plant.Age;
-}
+} //Pulls a value that doesnt exist due to the delete.
