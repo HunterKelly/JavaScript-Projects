@@ -15,3 +15,9 @@ function para() {
     document.getElementById("para1").innerHTML = text1 //this inputs the text into the html
                                                        //(the actual function part of the function)
 }
+var foo = document.getElementsByTagName("p");
+
+function addition_function() {
+    var addition = 2 + 2;
+    document.getElementById("Math").innerHTML = "2 + 2 = " + addition;
+}
