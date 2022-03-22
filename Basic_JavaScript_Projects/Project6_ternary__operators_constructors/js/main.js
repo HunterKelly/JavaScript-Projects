@@ -1,4 +1,4 @@
-document.write(Bigger = (5 > 1) ? "Left number is bigger" : "Right number is bigger");
+document.write(Bigger = (5 > 1) ? "Left number is bigger <br>" : "Right number is bigger");
 
 function Ride_Function() {
     var Height, Can_Ride;
