@@ -25,3 +25,20 @@ setInterval(function () {
         .appendTo('#slideshow');
 }, 3000);
 
+
+/*JS dictionary object */
+var dog = '{ "name": "Dax", "breed": "Great Pyrenees", "color": "White" }';
+
+//convert JS objects to string format 
+//var JSONstring = JSON.stringify(dog);
+//document.getElementById("myDog").innerHTML = JSONstring; 
+
+var JSONstring = JSON.parse(dog);
+document.getElementById("myDog").innerHTML = JSONstring.name + " the " +
+    JSONstring.breed;
+
+/*set the data as a key/value pair to be saved locally in your browser */
+localStorage.setItem("Name", "Dax");
+
+//Then use the key "Name" to return its velu "Dax"
+document.getElementById("myDog").innerHTML = localStorage.getItem("Name");
